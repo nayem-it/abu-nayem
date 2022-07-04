@@ -1,0 +1,31 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+h1{
+    font-size: 70px;
+}
+.orange-color{
+    color:orangered;
+}
+.span-color{
+    color:brown;
+}
+section{
+    display: flex;
+}
+.half{
+    width: 75%;
+    padding-left:04%;;
+}
+.half img{
+    width:80%;
+
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 06px 25px;
+    color:aliceblue;
+    font-weight:700;
+    border-radius: 4.90px;
+}
