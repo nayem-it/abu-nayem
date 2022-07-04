@@ -12,6 +12,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 142px;
 }
 .half{
     width: 75%;
@@ -28,4 +29,14 @@ section{
     color:aliceblue;
     font-weight:700;
     border-radius: 4.90px;
+}
+.top-banner{
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{ 
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
