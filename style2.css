@@ -2,24 +2,29 @@ body{
     font-family: 'Oxygen', sans-serif;
 }
 h1{
-    font-size: 70px;
+    font-size: 60px;
 }
 .orange-color{
     color:orangered;
 }
+h2 {
+    font-size: 35px;
+}
 .span-color{
     color:brown;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 142px;
 }
 .half{
-    width: 75%;
-    padding-left:04%;;
+    width: 65%;
+    padding-left:04%;
+
+    
 }
 .half img{
-    width:80%;
+    width:70%;
 
 }
 .button{
@@ -39,4 +44,23 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.exprience-item{
+    box-shadow: 10px 10px 39px gray;
+    margin-left:5%;
+    margin-right:5%;
+    width: 40%;
+    padding-left:04%;
+    border-left:7px solid blue;
+}
+.exprience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack {
+    border-left: 7px solid tomato;
+}
+footer p{
+    text-align: center;
 }
